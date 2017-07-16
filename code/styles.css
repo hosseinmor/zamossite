@@ -1,0 +1,253 @@
+BODY {
+		COLOR: #000;
+		BACKGROUND-COLOR: #ffffff; 	
+		SCROLLBAR-SHADOW-COLOR: #ffffff;
+		SCROLLBAR-3DLIGHT-COLOR: #A30041;  SCROLLBAR-ARROW-COLOR: #505050;
+		SCROLLBAR-DARKSHADOW-COLOR: #505050;  	SCROLLBAR-BASE-COLOR: #f5f5f5;  }
+
+table {font-size: 11pt; FONT-FAMILY: calibri, Arial, Helvetica, sans-serif;  color: #eee;}
+input { font-family:Trebuchet MS, calibri, Arial, Helvetica, sans-serif; font-size: 10pt; color: #eee; background-color: #222; border-style:solid; border-width:1px; }
+textarea { font-family:Trebuchet MS, calibri, Arial, Helvetica, sans-serif; font-size: 10pt; color: #eee; background-color: #222; border-style:solid; border-width:1px; }
+select { font-family:Trebuchet MS, calibri, Arial, Helvetica, sans-serif; font-size: 10pt; color: #A30041; background-color: #222; border-style:solid; border-width:1px; }
+option { font-family:Trebuchet MS, calibri, Arial, Helvetica, sans-serif; font-size: 10pt; color: #A30041; border-style:solid; border-width:1px; }
+h1 { font-family:Trebuchet MS; font-size: 20pt; color: #CACACA;text-decoration:none;  font-weight:400;}
+h2 { font-family:Trebuchet MS; font-size: 18pt; color: #ddd; text-decoration:none; font-weight:400;}
+h3 { font-family:Trebuchet MS; font-size: 12pt; color: #B3B3B3; text-decoration:none; font-weight:400;}
+
+.farsi {font-size: 13pt; FONT-FAMILY: B Mitra, Mitra, Tahoma, Helvetica, sans-serif; text-align:right; direction:rtl}
+.farsi-headline {font-size: 13pt; font-weight: 400; FONT-FAMILY: B Mitra; calibri, Arial, Helvetica, sans-serif;  color: #A30041; text-align:right; direction:rtl}
+
+.farsi-headline:a {text-decoration:none; color:#A30041}.hidden{display:none}
+.farsi-headline:hover {text-decoration:none; color:#fff}.hidden{display:none}
+.farsi-headline:visitied {text-decoration:none; color:#A30041}
+
+.copyright { font-family:calibri, Arial, Helvetica, sans-serif; color: #000000; font-size: 10pt; TEXT-DECORATION: none }
+
+
+a,
+a:link{color:#EEEEEE}
+a:visitied{color:#EEEEEE}
+a:hover{text-decoration:underline; color:#fff}.hidden{display:none}
+.promo{position:relative;}
+.promo .headline{font:bold 1.4em/1.2 Helvetica, "calibri, Arial", sans-serif;color:#000;padding:4px 0 6px}a:hover
+.promo .headline{text-decoration:none !important}
+.promo .link {position:relative;display:block;text-decoration:none;-webkit-transform:translate3d(0, 0, 0);-moz-transform:translate3d(0, 0, 0);-ms-transform:translate3d(0, 0, 0);-o-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0)}
+.promo .link:hover .wrap .text .intro{-webkit-transition:opacity 0.40s ease-out;-webkit-transition-delay:0.40s;-moz-transition:opacity 0.40s ease-out 0.40s;-o-transition:opacity 0.40s ease-out 0.40s;transition:opacity 0.40s ease-out 0.40s;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);opacity:1}
+
+.promo li{position:relative}
+.promo .wrap .text .intro{font-size:0.9em;line-height:1.3;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);opacity:0}
+.promo.content-after-over .wrap{position:absolute;float:left;width:auto;bottom:0;border-left:1px solid #CACACA;border-right:1px solid #CACACA;margin:0 -1px -10000px -1px;padding-bottom:10000px;-webkit-transition:height 0.40s ease-out;-moz-transition:height 0.40s ease-out;-o-transition:height 0.40s ease-out;transition:height 0.40s ease-out}
+.promo.content-after-over .wrap{height:20%;  opacity:0.60;  filter:alpha (opacity=60);}
+
+.promo.content-after-over img { -webkit-transition: all 0.40s ease-in-out; -moz-transition: all 0.40s ease-in-out; -ms-transition: all 0.40s ease-in-out; -o-transition: all 0.40s ease-in-out; transition: all 0.40s ease-in-out; } .swap1,
+.promo.content-after-over:hover .swap2 { -webkit-opacity: 1; -moz-opacity: 1; opacity: 1; }
+.promo.content-after-over:hover .swap1, .swap2 { -webkit-opacity: 0; -moz-opacity: 0; opacity: 0; }
+
+.promo.content-after-over .link{overflow:hidden}
+.promo.content-after-over .link:hover .wrap{height:100%;-webkit-transition:height 0.40s ease-out;-moz-transition:height 0.40s ease-out;-o-transition:height 0.40s ease-out;transition:height 0.40s ease-out;}
+
+.imageshow {position:relative}
+.imageshow:hover {position:relative; }
+
+.desatureted {
+    opacity:1;
+    -webkit-transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+}
+.desatureted:hover{
+    opacity:.7;
+    cursor:pointer;
+}
+
+.scrollToTop{
+	width:40px;
+	height:40px;
+	position:fixed;
+	bottom: 20px;
+	right:20px;
+	display:none;
+	background: url('../images/scroll.png') no-repeat ;
+	opacity:.7;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;}
+
+.scrollToTop:hover{
+	opacity:1;
+	background: url('../images/scroll-hover.png') no-repeat ;
+}
+
+
+    #slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+	margin-top:-15px;
+	z-index: 10;
+	id=layer2;
+	position: relative;
+	float: right;
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: right;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-top:50px;
+      margin-right:3px;
+      margin-left:2px;
+      background-image: url("../images/go-right.png");    }
+
+    a:hover.slidesjs-next {
+      margin-right:3px;
+      margin-left:2px;
+background-image: url("../images/go-right-hover.png");    }
+
+    a.slidesjs-previous {
+      margin-right:2px;
+      margin-left:0px;
+background-image: url("../images/go-left.png");    }
+
+    a:hover.slidesjs-previous {
+      margin-right:2px;
+      margin-left:0px;
+background-image: url("../images/go-left-hover.png");
+    }
+
+    a.slidesjs-play {
+      margin-right:4px;
+      margin-left:10px;
+      background-image: url("../images/play.png");
+    }
+
+    a:hover.slidesjs-play {
+      margin-right:4px;
+      margin-left:10px;
+   background-image: url("../images/play-hover.png");
+    }
+
+    a.slidesjs-stop {
+      margin-right:4px;
+      margin-left:10px;
+      background-image: url("../images/stop.png");
+    }
+
+    a:hover.slidesjs-stop {
+      margin-right:4px;
+      margin-left:10px;
+  background-image: url("../images/stop-hover.png");
+    }
+
+
+    #slides .slidesjs-pagination {
+      margin-top:-13px;
+      z-index: 11;
+     id=layer3;
+     position: relative;
+      float: right;
+    }
+
+    .slidesjs-pagination {
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin-right:2px;
+      margin-left:2px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 10px;
+      height: 0;
+      padding-top: 5px;
+      background-image: url("../images/item.png");
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-image: url("../images/item-hover.png");
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-image: url("../images/item-hover.png");
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+
+    #slides {
+      display: none
+    }
+
+
+/* Tee container of top slide show with control buttons - the back color can be set here */
+    .container {
+      margin: 0 auto;
+     background-color: #F5F5F5;
+
+    }
+
+    @media (min-width: 1100px) {
+      .container {
+        width: 1100px;
+     background-color: #F5F5F5;
+      }
+    }
+
+.rs-slideshow {
+    border: 12px solid #ffffff;
+    height: 240px;
+    margin: 24px auto;
+    overflow: hidden;
+    position: relative;
+    width: 620px;
+}
+
+.rs-slideshow .slide-container {
+    background-color: #ffffff;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.rs-slideshow .slide-container img {
+    position: absolute;
+}
+
+/*    Hide the slide data container    */
+.rs-slideshow .slides {
+    display: none;
+}
